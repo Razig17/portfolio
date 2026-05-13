@@ -1,0 +1,130 @@
+{
+  "nav": {
+    "about": "About",
+    "services": "Services",
+    "works": "Works",
+    "research": "Research",
+    "contact": "Contact",
+    "bookCall": "Book a call",
+    "downloadCv": "Download CV",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "bookCallModalTitle": "Book a 30-min architecture review",
+    "bookCallModalClose": "Close"
+  },
+  "hero": {
+    "available": "Available for Freelance & Full-time",
+    "headlinePrefix": "I architect",
+    "phrases": [
+      "scalable backend systems.",
+      "cloud-native solutions.",
+      "resilient APIs.",
+      "AI-driven applications."
+    ],
+    "subhead": "I bridge the gap between robust API development, secure cloud environments, and applied AI research.",
+    "cta": "Explore my work",
+    "techStack": "Daily Stack"
+  },
+  "stats": {
+    "ociCertified": "OCI Certified",
+    "deploys": "Production Deploys",
+    "papers": "Published Papers",
+    "remote": "Remote-ready"
+  },
+  "oci": {
+    "eyebrow": "Credentials",
+    "title": "Oracle Cloud Infrastructure certified."
+  },
+  "services": {
+    "eyebrow": "Services",
+    "title": "From API design to cloud production — full ownership.",
+    "intro": "From cloud architecture on AWS & OCI to NestJS APIs, CI/CD pipelines, and applied LLM integrations — shipped to production, billed by outcome.",
+    "ctaTitle": "Have a system that needs to scale — or a migration that can't fail?",
+    "ctaSubtitle": "Free 30-min architecture review. MENA timezones welcome.",
+    "items": {
+      "cloud": {
+        "title": "Cloud Architecture & Migration",
+        "desc": "Designing secure, scalable environments on AWS & Oracle Cloud (OCI) — IAM, VPCs, networking, and cost-aware compute."
+      },
+      "backend": {
+        "title": "Backend & API Engineering",
+        "desc": "Production-grade REST & GraphQL APIs with NestJS, Django, and Strapi — auth, payments, and business logic."
+      },
+      "devops": {
+        "title": "DevOps & CI/CD Automation",
+        "desc": "Automated deploys with Docker, GitHub Actions, and Jenkins. Zero-downtime releases and rock-solid rollback paths."
+      },
+      "ai": {
+        "title": "Applied AI & LLM Integration",
+        "desc": "Embedding generative LLMs into corporate apps — smart search, Q&A, and Arabic NLP. Backed by published research at ArabicNLP 2025."
+      },
+      "automation": {
+        "title": "Workflow Automation",
+        "desc": "Event-driven pipelines with n8n to sync APIs, scrape pricing, and replace manual ops."
+      },
+      "linux": {
+        "title": "Linux Infra & Enterprise Backup",
+        "desc": "Linux administration, Nginx, HAProxy, and automated backups with Veeam + OCI Object Storage."
+      }
+    }
+  },
+  "works": {
+    "eyebrow": "Selected Works",
+    "title": "A few things I've shipped.",
+    "readCaseStudy": "Read case study",
+    "stack": "Tech stack",
+    "challenge": "Challenge",
+    "solution": "Solution",
+    "outcomes": "Outcomes",
+    "year": "Year",
+    "role": "Role",
+    "client": "Client",
+    "live": "Live",
+    "visitSite": "Visit site",
+    "nextProject": "Next project",
+    "similarChallenge": "Have a similar challenge?",
+    "similarChallengeBody": "30-min architecture review — bring your stack, leave with a concrete plan.",
+    "breadcrumbWorks": "Works",
+    "architectureSoon": "architecture diagram · coming soon",
+    "systems": {
+      "eyebrow": "Systems Engineering",
+      "title": "Lower-level systems & infrastructure work."
+    }
+  },
+  "research": {
+    "eyebrow": "AI Research & Publications",
+    "title": "Bridging engineering with applied research."
+  },
+  "contact": {
+    "eyebrow": "Get in touch",
+    "title": "Let's build something durable.",
+    "blurb": "Available for backend engineering, cloud architecture, OCI / AWS migrations, and applied AI work. Typical reply time: under 24 hours.",
+    "blurbReplyUnder": "under 24 hours",
+    "emailLabel": "Email",
+    "whatsappCta": "WhatsApp me",
+    "bookCallCta": "Book a 30-min call",
+    "available": "Available now",
+    "availableBody": "Booking new engagements for next quarter. Flexible across MENA hours, with European overlap.",
+    "basedIn": "Based in",
+    "engagements": "Engagements",
+    "engagementsValue": "Freelance · Full-time",
+    "stackLabel": "Focus",
+    "stackValue": "Backend · Cloud · AI"
+  },
+  "footer": {
+    "rights": "All rights reserved.",
+    "based": "Based in {location} · Building for MENA & beyond."
+  },
+  "common": {
+    "language": "Language",
+    "switchToArabic": "العربية",
+    "switchToEnglish": "English",
+    "backToTop": "Back to top",
+    "toggleTheme": "Toggle theme"
+  },
+  "notFound": {
+    "title": "Project not found.",
+    "body": "The case study you're looking for doesn't exist or has moved.",
+    "back": "Back to all works"
+  }
+}
