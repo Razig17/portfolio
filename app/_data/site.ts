@@ -6,17 +6,16 @@
 export const siteConfig = {
   name: "Abdelrazig Sharif",
   fullName: "Abdelrazig Mohamed Sharif",
-  role: "Cloud-Native Backend Engineer, Full Stack & Software Engineer, OCI Architect",
-  roleAr:
-    "مهندس نظم سحابية، مطور برمجيات، مهندس برمجيات، مطور فل ستاك، وخبير حلول تقنية للمؤسسات السعودية",
+  role: "DevOps & Backend Engineer",
+  roleAr: "مهندس DevOps وبنية سحابية",
   location: "Riyadh, Saudi Arabia",
   locationAr: "الرياض، المملكة العربية السعودية",
   email: "Abdelrazig.sharif1@gmail.com",
   url: "https://abdelrazig.me",
   description:
-    "I architect scalable backends, build robust cloud infrastructure, and deliver full stack and software engineering solutions. Bridging API development, secure cloud, and applied AI research.",
+    "Scalable backend systems, cloud architecture on AWS & OCI, and applied AI research. Based in Riyadh, available for freelance & full-time.",
   descriptionAr:
-    "خبير في تطوير الأنظمة السحابية، البنية التحتية الرقمية، هندسة البرمجيات، وتطوير الفل ستاك للشركات السعودية. متخصص في بناء واجهات برمجية قوية، أتمتة DevOps، وتكامل الذكاء الاصطناعي لخدمة الأعمال في المملكة.",
+    "أنظمة خلفية قابلة للتوسع، بنية سحابية على AWS و OCI، وأبحاث ذكاء اصطناعي تطبيقي. مقيم في الرياض، متاح للعمل الحر والدوام الكامل.",
 
   links: {
     linkedin: "https://www.linkedin.com/in/abdelrazig-sharif",
