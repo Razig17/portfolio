@@ -17,9 +17,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
     changeFrequency: "monthly" as const,
     priority: locale === routing.defaultLocale ? 1 : 0.9,
     alternates: {
-      languages: Object.fromEntries(
-        routing.locales.map((l) => [l, localePath(l, "/")]),
-      ),
+      languages: {
+        ...Object.fromEntries(
+          routing.locales.map((l) => [l, localePath(l, "/")]),
+        ),
+        "x-default": localePath(routing.defaultLocale, "/"),
+      },
     },
   }));
 
@@ -30,9 +33,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "monthly" as const,
       priority: 0.8,
       alternates: {
-        languages: Object.fromEntries(
-          routing.locales.map((l) => [l, localePath(l, `/works/${p.slug}`)]),
-        ),
+        languages: {
+          ...Object.fromEntries(
+            routing.locales.map((l) => [l, localePath(l, `/works/${p.slug}`)]),
+          ),
+          "x-default": localePath(routing.defaultLocale, `/works/${p.slug}`),
+        },
       },
     })),
   );
