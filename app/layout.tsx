@@ -7,6 +7,7 @@ import { BookCallProvider } from "./_components/book-call-modal";
 import { ThemeProvider } from "./_components/theme-provider";
 import { CustomCursorMount } from "./_components/custom-cursor-mount";
 import { Analytics } from "@vercel/analytics/next";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 import "./globals.css";
 
 const inter = Inter({
@@ -69,6 +70,7 @@ export default async function RootLayout({
           </ThemeProvider>
         </NextIntlClientProvider>
         <Analytics />
+        <SpeedInsights />
       </body>
     </html>
   );
