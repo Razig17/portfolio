@@ -15,6 +15,7 @@ export function TechMarquee({ items, duration = 30, className = "" }: Props) {
   const loop = [...items, ...items]; // duplicate for seamless loop
   return (
     <div
+      dir="ltr"
       className={`group relative w-full overflow-hidden [mask-image:linear-gradient(to_right,transparent,black_10%,black_90%,transparent)] ${className}`}
     >
       <div

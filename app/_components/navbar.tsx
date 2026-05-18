@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react";
 import Link from "next/link";
-import { usePathname } from "next/navigation";
+import { usePathname } from "../../i18n/navigation";
 import { useTranslations, useLocale } from "next-intl";
 import { useActiveSection } from "./motion";
 import { BookCallButton } from "./book-call-modal";
@@ -13,13 +13,11 @@ import { siteConfig } from "../_data/site";
 const linkIds = ["about", "services", "works", "research", "contact"] as const;
 
 export function Navbar() {
-  const pathname = usePathname();
+  const pathname = usePathname(); // already locale-stripped by i18n/navigation
   const locale = useLocale();
   const tNav = useTranslations("nav");
-  // Strip the locale prefix to detect the home page (e.g. "/ar" → "/")
-  const stripped =
-    pathname.replace(new RegExp(`^/${locale}(?=/|$)`), "") || "/";
-  const isHome = stripped === "/";
+  // usePathname from i18n/navigation already strips the locale prefix
+  const isHome = pathname === "/";
   const active = useActiveSection(isHome ? [...linkIds] : []);
   const [mobileOpen, setMobileOpen] = useState(false);
   const [hidden, setHidden] = useState(false);

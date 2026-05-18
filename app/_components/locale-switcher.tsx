@@ -17,6 +17,7 @@ export function LocaleSwitcher() {
 
   const onClick = () => {
     router.replace(pathname, { locale: next });
+    router.refresh();
   };
 
   return (
